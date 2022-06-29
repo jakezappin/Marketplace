@@ -1,0 +1,16 @@
+.exit
+marketplace
+const marketplace = await ethers.getContractAt("Marketplace", "0x0165878A594ca255338adfa4d48449f69242Eb8F")
+.exit
+name
+const name = await contract.name()
+tokenCount2
+const tokenCount2 = await contract.tokenCount()
+const tokenCount = await contract.tokenCount()
+const contract = await ethers.getContractAt("NFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
+const tokenCount = await contract.tokenCount()
+.exit
+--network localhost
+.exit
+NFT
+const contract = await ethers.getContractAt("NFT", "0x5FbDB2315678afecb367f032d93F642f64180aa3")
